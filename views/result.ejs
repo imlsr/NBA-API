@@ -1,8 +1,15 @@
 <%- include("index"); -%>
 <div class="card" style="width: 65rem; margin-top: 50px;">
-  <div class="card-body">
-    <h5 class="card-title"><%=FirstName%>  <%=LastName%></h5>
-    <h6 class="card-subtitle mb-2 text-muted">subtitle</h6>
-    <p class="card-text">Content to be added</p>
-  </div>
+    <ul class="card-body">
+        <h5 class="card-title"> <%= playerName %></h5>
+        <h6 class="list-subtitle"> <%= team %></h6>
+        <p class="card-text">Height : <%= height %></p>
+        <p class="card-text">Minutes : <%= min %></p>
+        <p class="card-text">Points : <%= pts %></p>
+        <p class="card-text">Assists : <%= ast %></p>
+        <p class="card-text">Rebound : <%= reb %></p>
+        <p class="card-text">Steal: <%= stl %></p>
+        <p class="card-text">Blocks : <%= blk %></p>
+        <p clps="card-text">Turnover : <%= turnover %></p>
+    </ul>
 </div>
